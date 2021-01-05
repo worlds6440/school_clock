@@ -12,4 +12,4 @@ To make the clock start at boot, run:
 `sudo crontab -e`  
   
 And add the following line at the bottom:  
-`@reboot /usr/bin/python /home/pi/clock.py`
+`@reboot /usr/bin/python /home/pi/clock.py &`  
